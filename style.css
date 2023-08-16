@@ -299,6 +299,12 @@ section {
   bottom: 5rem;
 }
 
+@media (max-width: 576px) {
+.arrow_2 {
+    display: none;
+  }
+}
+
 .details-container {
   padding: 1.5rem;
   flex: 1;
