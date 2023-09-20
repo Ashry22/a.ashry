@@ -283,6 +283,12 @@ section {
   display: flex;
 }
 
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 5rem;
+}
+
 .about-pic {
   border-radius: 2rem;
 }
@@ -402,13 +408,14 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+
 /* CONTACT */
 
 #contact {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: column;
-  height: 70vh;
+  height: 160vh;
 }
 
 .contact-info-upper-container {
